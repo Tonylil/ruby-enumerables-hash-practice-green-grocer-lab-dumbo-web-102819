@@ -11,6 +11,7 @@ def consolidate_cart(cart)
     #end
     key.each do |key2, value2|
       puts "  New info: key:#{key} + value:#{value}"
+    end
   end
 end
 
