@@ -1,6 +1,6 @@
 def consolidate_cart(cart)
   # code here
-  puts "original Cart: #{authenticate_or_request_with_http_basic}" 
+  puts "original Cart: #{cart}" 
   newCart = {}
   cart.each do |key, value|
     puts "Each Info: key:#{key} + value:#{value}"
