@@ -2,7 +2,9 @@ def consolidate_cart(cart)
   # code here
   puts cart
   newCart = {}
-  
+  cart.each do |key, value|
+    
+  end
 end
 
 def apply_coupons(cart, coupons)
