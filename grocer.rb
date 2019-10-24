@@ -1,6 +1,6 @@
 def consolidate_cart(cart)
   # code here
-  puts cart
+  puts "original Cart: " + cart
   newCart = {}
   cart.each do |key, value|
     if newCart.key?
