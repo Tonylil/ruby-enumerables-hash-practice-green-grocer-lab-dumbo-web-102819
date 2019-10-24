@@ -8,7 +8,7 @@ def consolidate_cart(cart)
     if newCart.key?(oriHash)
       oriHash[count] += 1
     else
-      puts " - keys: , key: #{oriHash[key]}"
+      #puts " - keys: , key: #{oriHash[key]}"
       #newCart[oriHash[keys].to_sym]= oriHash[key]
       newCart[:count] = 1
     end
