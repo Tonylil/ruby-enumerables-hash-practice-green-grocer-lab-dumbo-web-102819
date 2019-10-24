@@ -2,7 +2,7 @@ def consolidate_cart(cart)
   # code here
   puts "original Cart: #{cart}" 
   newCart = {}
-  cart.each do |key, value|
+  cart.each do |oriHash|
     puts " Each Info: key:#{key} + value:#{value}"
     #if newCart.key?
     #  newCart[key][:count] += 1
