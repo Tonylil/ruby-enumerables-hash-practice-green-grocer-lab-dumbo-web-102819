@@ -3,12 +3,14 @@ def consolidate_cart(cart)
   puts "original Cart: #{cart}" 
   newCart = {}
   cart.each do |key, value|
-    puts "Each Info: key:#{key} + value:#{value}"
+    puts " Each Info: key:#{key} + value:#{value}"
     #if newCart.key?
     #  newCart[key][:count] += 1
     #else
     #  newCart[key]
     #end
+    key.each do |key2, value2|
+      puts "  New info: key:#{key} + value:#{value}"
   end
 end
 
