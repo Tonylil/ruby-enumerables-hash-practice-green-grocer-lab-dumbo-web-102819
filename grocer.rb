@@ -9,7 +9,7 @@ def consolidate_cart(cart)
       oriHash[count] += 1
     else
       puts " - keys: #{oriHash[keys]} , key: #{oriHash[key]}"
-      newCart[oriHash[keys].to_sym]= oriHash[key]
+      #newCart[oriHash[keys].to_sym]= oriHash[key]
       newCart[:count] = 1
     end
     puts "  New Hash Data #{newCart}"
