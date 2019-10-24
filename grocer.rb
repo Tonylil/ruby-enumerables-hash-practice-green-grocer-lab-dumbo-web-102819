@@ -3,7 +3,8 @@ def consolidate_cart(cart)
   puts cart
   newCart = {}
   cart.each do |key, value|
-    
+    if newCart.key?
+      newCart
   end
 end
 
