@@ -3,10 +3,14 @@ def consolidate_cart(cart)
   puts "original Cart: #{cart}" 
   newCart = {}
   cart.each do |oriHash|
-    puts "data from Array: #{oriHash}"
-    puts newCart.key?
-    if newCart.key?
-      
+    puts " data from Array: #{oriHash}"
+    puts newCart.key?(oriHash)
+    if newCart.key?(oriHash)
+      oriHash[count] += 1
+    else
+      newCart = oriHash
+    end
+    puts "  New Hash Data #{newCart}"
   end
 end
 
